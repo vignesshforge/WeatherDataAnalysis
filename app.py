@@ -1,7 +1,12 @@
 import streamlit as st
 from utils.style import apply_custom_style
 
-st.set_page_config(page_title="Weather Insights | Home", page_icon="🌦️", layout="wide")
+st.set_page_config(
+    page_title="Weather Data Analysis",
+    page_icon="🌦️",
+    layout="wide",
+)
+
 apply_custom_style()
 
 st.markdown("""

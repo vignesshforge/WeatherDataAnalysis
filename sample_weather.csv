@@ -1,0 +1,11 @@
+Date,City,Temperature,Humidity,Rainfall,Wind_Speed
+2026-10-01,Hyderabad,32,65,0,12
+2026-10-02,Hyderabad,31,70,5,15
+2026-10-03,Hyderabad,29,80,12,18
+2026-10-04,Hyderabad,30,75,8,14
+2026-10-05,Hyderabad,33,60,0,10
+2026-10-01,Visakhapatnam,29,78,10,16
+2026-10-02,Visakhapatnam,28,82,15,20
+2026-10-03,Visakhapatnam,30,76,5,13
+2026-10-04,Visakhapatnam,31,72,0,11
+2026-10-05,Visakhapatnam,27,85,20,22
