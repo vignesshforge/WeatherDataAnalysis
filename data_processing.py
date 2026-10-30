@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "weather_data.csv"
+DATA_PATH = Path(__file__).resolve().parent / "weather_data.csv"
 
 
 def load_dataset():
