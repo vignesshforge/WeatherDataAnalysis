@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.style import apply_custom_style
+from style import apply_custom_style
 
 st.set_page_config(
     page_title="Weather Data Analysis",
