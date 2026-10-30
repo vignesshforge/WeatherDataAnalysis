@@ -2,9 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from utils.data_processing import load_dataset
-from utils.style import apply_custom_style
-
+from data_processing import load_dataset
+from style import apply_custom_style
 st.set_page_config(page_title="Weather Insights Dashboard", page_icon="🌦️", layout="wide")
 apply_custom_style()
 
