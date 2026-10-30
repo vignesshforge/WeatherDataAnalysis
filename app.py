@@ -23,11 +23,11 @@ a,b,c=st.columns(3)
 with a:
     st.markdown('<div class="mini-card"><h3>📊 Analyze</h3><p>Summarize temperature, humidity, rainfall and wind-speed measurements.</p></div>',unsafe_allow_html=True)
     st.write("")
-    st.page_link("pages/1_Dashboard.py", label="Open dashboard", icon="🏠", use_container_width=True)
+    st.page_link("1_Dashboard.py", ...), label="Open dashboard", icon="🏠", use_container_width=True)
 with b:
     st.markdown('<div class="mini-card"><h3>🌤️ Live weather</h3><p>Search for a city and explore current conditions and a seven-day forecast.</p></div>',unsafe_allow_html=True)
     st.write("")
-    st.page_link("pages/11_Live_Weather.py", label="Check live weather", icon="🌦️", use_container_width=True)
+    st.page_link("1_Dashboard.py", ...), label="Check live weather", icon="🌦️", use_container_width=True)
 with c:
     st.markdown('<div class="mini-card"><h3>🤖 Predict</h3><p>Train and compare models using your uploaded historical weather data.</p></div>',unsafe_allow_html=True)
     st.write("")
